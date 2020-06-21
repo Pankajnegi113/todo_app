@@ -1,0 +1,55 @@
+body{
+    background-color: #a28089;
+}
+
+/*div align to center containing all other divs*/
+#container{
+    height:auto;
+    width:400px;
+    border:2px solid black;
+    background-color: whitesmoke;
+    margin-top:200px ;
+    margin-left:570px ;
+}
+
+/*input field properties*/
+#inputDiv input{
+    width: 68%;
+    height:30px;
+    position: relative;
+    text-align: justify;
+    border:2px solid black;
+    margin-top: 20px;
+    left: 10%;
+}
+
+/* add item button properties*/
+#add-btn{
+    margin-left: 40px;
+    border: 2px solid black;
+    font-weight: 600;
+    border-radius:10px;
+    background-color:#ffa8B6;
+}
+
+/* properties for list items*/
+#unordered-list li{
+    width: 80%;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;
+    list-style: none;
+    margin:10px 0px;
+    background-color: #edf2f6;
+}
+
+/*to display footer text at center*/
+#count{
+    text-align: center;
+  
+}
+
+/* to show delete icon to right  */
+i{
+    float: right;
+}
